@@ -7,8 +7,8 @@ To compile you need: XenServer-7.4.0-SDK from http://www.citrix.com/downloads/xe
 
 This plugin was tested with:
 
-XenServer-7.4.0-SDK
-Feb 28, 2018
+XenServer-7.4.0-SDK  
+Feb 28, 2018  
 SHA-256 - 9972618501a20f9ae82ab4f9ed43bd9bca1ffd29a609bbdb661a8e94b104f1a1
 
 Simply put the "xcpng.example.plugin" folder to "XenServer-SDK\XenServer.NET\xcpng.example.plugin" and add it to the samples project ("XenSdkSample.sln").
@@ -17,7 +17,7 @@ You need to manually fix the path to ResGen.exe and AL.exe in the PostBuildEvent
 
 One way to find the path is to start the Visual Stuio 2017 Developer commandline environment and run:
 
-where resgen.exe
+where resgen.exe  
 where al.exe
 
 
