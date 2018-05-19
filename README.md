@@ -29,7 +29,7 @@ XCP-NG-Center-Install-Path\Plugins\xcp-ng.org\xcpng.example.plugin\
 
 Then copy the following compiled files to that directory:
 
-CookComputing.XmlRpcV2.dll
+CookComputing.XmlRpcV2.dll  
 xcpng.example.plugin.exe  
 xcpng.example.plugin.resources.dll  
 xcpng.example.plugin.xcplugin.xml  
