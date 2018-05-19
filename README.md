@@ -1,8 +1,9 @@
 # xcpng.example.plugin
 Example Windows Forms Plugin for XCP-NG Center
 
-To compile you need: XenServer-7.4.0-SDK from http://www.citrix.com/downloads/xenserver/
+## Compiling
 
+To compile you need: XenServer-7.4.0-SDK from http://www.citrix.com/downloads/xenserver/
 
 This plugin was tested with:
 
@@ -19,6 +20,9 @@ One way to find the path is to start the Visual Stuio 2017 Developer commandline
 where resgen.exe
 where al.exe
 
+
+## Installation
+
 To manually "install" the plugin you need to create the following path:
 
 XCP-NG-Center-Install-Path\Plugins\xcp-ng.org\xcpng.example.plugin\
@@ -26,13 +30,13 @@ XCP-NG-Center-Install-Path\Plugins\xcp-ng.org\xcpng.example.plugin\
 Then copy the following compiled files to that directory:
 
 CookComputing.XmlRpcV2.dll
-xcpng.example.plugin.exe
-xcpng.example.plugin.resources.dll
-xcpng.example.plugin.xcplugin.xml
-XenServer.dll
+xcpng.example.plugin.exe  
+xcpng.example.plugin.resources.dll  
+xcpng.example.plugin.xcplugin.xml  
+XenServer.dll  
 
-To use the plugin start XCP-NG Center.
-Right clicking a Host: the context menu should contain an entry named "XCP-NG Example Plugin Host"
-Right clicking a VM: the context menu should contain an entry named "XCP-NG Example Plugin VM"
-Top Menu "Server": should contain an entry named "XCP-NG Example Plugin Host"
-Top Menu "VM": should contain an entry named "XCP-NG Example Plugin VM"
+To use the plugin start XCP-NG Center.  
+Right clicking a Host: the context menu should contain an entry named "XCP-NG Example Plugin Host"  
+Right clicking a VM: the context menu should contain an entry named "XCP-NG Example Plugin VM"  
+Top Menu "Server": should contain an entry named "XCP-NG Example Plugin Host"  
+Top Menu "VM": should contain an entry named "XCP-NG Example Plugin VM"  
