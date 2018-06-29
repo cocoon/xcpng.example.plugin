@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE XenCenterPlugin PUBLIC "-//XENCENTERPLUGIN//DTD XENCENTERPLUGIN1//EN" "xencenter-1.dtd">
+<XenCenterPlugin xmlns="http://www.citrix.com/XenCenter/Plugins/schema" version="1" plugin_version="1.0.0">
+  <MenuItem name="XCP-NG Example Plugin 2 VM" menu="vm" contextmenu="vm" serialized="obj">
+    <Shell filename="Plugins\xcp-ng.org\xcpng.example.plugin2\xcpng.example.plugin2.exe" window="true" debug="false" />
+  </MenuItem>
+  <MenuItem name="XCP-NG Example Plugin 2 Host" menu="server" contextmenu="host" serialized="obj">
+    <Shell filename="Plugins\xcp-ng.org\xcpng.example.plugin2\xcpng.example.plugin2.exe" window="true" debug="false" />
+  </MenuItem>
+</XenCenterPlugin>
