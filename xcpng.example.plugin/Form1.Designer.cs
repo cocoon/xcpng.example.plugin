@@ -72,7 +72,7 @@
             this.Controls.Add(this.buttonGetRecords);
             this.Controls.Add(this.t1);
             this.Name = "Form1";
-            this.Text = "X1 Plugin";
+            this.Text = "XCP-NG-Center Example Plugin 2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
